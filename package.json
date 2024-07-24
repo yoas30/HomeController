@@ -10,8 +10,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "paho-mqtt": "^1.1.0",
     "react": "18.2.0",
-    "react-native": "0.74.3"
+    "react-native": "0.74.3",
+    "react-native-asset": "^2.1.1",
+    "react-native-responsive-fontsize": "^0.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

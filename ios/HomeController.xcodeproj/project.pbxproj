@@ -15,6 +15,11 @@
 		4A36C6558C1B3131C3CA227E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6D4C78A4AC0D4141F6EFFCD2 /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-HomeController-HomeControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-HomeController-HomeControllerTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		5977F327B92343D3A6831286 /* Changa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D2B31C431414F8A5F72AA /* Changa-Regular.ttf */; };
+		EC6CBC18D5BF4C64972667CB /* Jersey25-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5B9BBE37EDB4762A41F10CF /* Jersey25-Regular.ttf */; };
+		6159B75DB4714442BF705DE7 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8DBC05E285C450FA6BDB68B /* Oswald-Bold.ttf */; };
+		A7B21E2ECC1445F2B00ACAFD /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91D9821F598B4592B9C4CA96 /* Oswald-Regular.ttf */; };
+		1F3E278CE41841829E309FF3 /* PoetsenOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6A94184D68B4449952CFC71 /* PoetsenOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HomeController/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-HomeController-HomeControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeController-HomeControllerTests.release.xcconfig"; path = "Target Support Files/Pods-HomeController-HomeControllerTests/Pods-HomeController-HomeControllerTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		8B5D2B31C431414F8A5F72AA /* Changa-Regular.ttf */ = {isa = PBXFileReference; name = "Changa-Regular.ttf"; path = "../src/font/Changa-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C5B9BBE37EDB4762A41F10CF /* Jersey25-Regular.ttf */ = {isa = PBXFileReference; name = "Jersey25-Regular.ttf"; path = "../src/font/Jersey25-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E8DBC05E285C450FA6BDB68B /* Oswald-Bold.ttf */ = {isa = PBXFileReference; name = "Oswald-Bold.ttf"; path = "../src/font/Oswald-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		91D9821F598B4592B9C4CA96 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; name = "Oswald-Regular.ttf"; path = "../src/font/Oswald-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F6A94184D68B4449952CFC71 /* PoetsenOne-Regular.ttf */ = {isa = PBXFileReference; name = "PoetsenOne-Regular.ttf"; path = "../src/font/PoetsenOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +137,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				880D77A17B2E4981BADCE4C3 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -152,6 +163,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		880D77A17B2E4981BADCE4C3 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				8B5D2B31C431414F8A5F72AA /* Changa-Regular.ttf */,
+				C5B9BBE37EDB4762A41F10CF /* Jersey25-Regular.ttf */,
+				E8DBC05E285C450FA6BDB68B /* Oswald-Bold.ttf */,
+				91D9821F598B4592B9C4CA96 /* Oswald-Regular.ttf */,
+				F6A94184D68B4449952CFC71 /* PoetsenOne-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -249,6 +273,11 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				4A36C6558C1B3131C3CA227E /* PrivacyInfo.xcprivacy in Resources */,
+				5977F327B92343D3A6831286 /* Changa-Regular.ttf in Resources */,
+				EC6CBC18D5BF4C64972667CB /* Jersey25-Regular.ttf in Resources */,
+				6159B75DB4714442BF705DE7 /* Oswald-Bold.ttf in Resources */,
+				A7B21E2ECC1445F2B00ACAFD /* Oswald-Regular.ttf in Resources */,
+				1F3E278CE41841829E309FF3 /* PoetsenOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
