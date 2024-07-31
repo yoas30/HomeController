@@ -1,4 +1,4 @@
-package com.homecontroller
+package com.masyoo.homecontroller
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

@@ -1,4 +1,4 @@
-package com.homecontroller
+package com.masyoo.homecontroller
 
 import android.app.Application
 import com.facebook.react.PackageList
