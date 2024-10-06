@@ -204,13 +204,13 @@ function SemuaHidup(c) {
                         </TouchableOpacity>
                       </View> 
 
-                    <Text style={ [styles.title, { color: "#066A4E", fontSize: 22 }]}> MATIKAN SEMUA PERALATAN LISTRIK</Text>
+                    <Text style={ [styles.title, { color: "#066A4E", fontSize: 22 }]}> SEMUA PERALATAN LISTRIK</Text>
                       <View style={styles.containerColumn}>
                           <TouchableOpacity style={styles.tombolKlikTerakhir} onPress={() => { SemuaHidup(client); }} >
-                              <Image source={on} style={styles.tombolGambar}/>
+                              <Image source={on} style={[styles.tombolGambar, { width: 40, height: 40 }]}/>
                           </TouchableOpacity>
                         <TouchableOpacity style={styles.tombolKlikTerakhir} onPress={() => { SemuaMati(client);} } >
-                              <Image source={off} style={styles.tombolGambar}/>
+                             <Image source={off} style={[styles.tombolGambar, { width: 40, height: 40 }]}/>
                         </TouchableOpacity>
                       </View> 
             </View>    
@@ -305,7 +305,7 @@ const styles = StyleSheet.create({
   tombolKlikTerakhir: {
               backgroundColor: "#314555",
               width: "auto",              // Sesuaikan ukuran tombol
-              height: 75,                 // Sesuaikan ukuran tombol
+              height: 100,                 // Sesuaikan ukuran tombol
               borderRadius: 10,           // Setengah dari width/height agar berbentuk lingkaran
               justifyContent: 'center',   // Menempatkan konten di tengah secara vertikal
               alignItems: 'center',       // Menempatkan konten di tengah secara horizontal
