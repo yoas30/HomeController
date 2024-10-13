@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     tombolKlikMerah: {
                  backgroundColor: '#990e11',
                  width: 400,               // Sesuaikan ukuran tombol
-                 height: 70,               // Sesuaikan ukuran tombol
+                 height: 50,               // Sesuaikan ukuran tombol
                  borderRadius: 30,         // Setengah dari width/height agar berbentuk lingkaran
                  justifyContent: 'center', // Menempatkan konten di tengah secara vertikal
                  alignItems: 'center',     // Menempatkan konten di tengah secara horizontal

@@ -27,7 +27,7 @@ const DashboardDepan = () => {
   : textKonek === 'TERKONEKSI !!' 
   ? 'green' 
   : 'yellow'; // Warna default atau kondisi tambahan
-  
+
   //const fontFamily1 = Platform.OS === 'ios' ? 'Oswald-Bold' : 'Oswald-SemiBold'; 
 
 
@@ -200,10 +200,10 @@ function SemuaHidup(c) {
                                     <View style={styles.containerColumn}>
                                             <Text style={ [styles.title, { color: "#990e11", fontSize: 22, flexWrap: 'wrap', lineHeight: 24, marginTop: 35, marginBottom: 20 }]}
                                         >MATIKAN SEMUA PERALATAN LISTRIK</Text>
-                                                    <TouchableOpacity style={[styles.tombolKlik, { height: 60}]} onPress={() => { SemuaHidup(client); }} >
+                                                    <TouchableOpacity style={[styles.tombolKlik, { height: 50}]} onPress={() => { SemuaHidup(client); }} >
                                                           <Text Text style={styles.subtitle}>Hidupkan</Text>
                                                     </TouchableOpacity>
-                                                    <TouchableOpacity style={[styles.tombolKlikMerah, { height: 60 }]} onPress={() => { SemuaMati(client);} } >
+                                                    <TouchableOpacity style={[styles.tombolKlikMerah, { height: 40, marginBottom: 20 }]} onPress={() => { SemuaMati(client);} } >
                                                             <Text style={styles.subtitle}>Matikan</Text>
                                                     </TouchableOpacity> 
                                     </View> 
